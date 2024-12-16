@@ -28,15 +28,21 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LLFF3SMW7E"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'G-LLFF3SMW7E');
 </script>
+
 <body>
-  
+
   <div class="container">
     <nav class="menu">
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       <ul>
         <li><a href="code-poetry.html">./code --poetry</a></li>
         <li><a href="bio.html">Bio</a></li>
@@ -44,22 +50,25 @@
       </ul>
     </nav>
     <main>
-  <h1>Chris Kerr | Poet</h1>
-  <p>Website under construction...</p>
-  <h2>Books</h2>
-  <ul>
-    <li><em>./code --poetry</em> (<a href="http://www.code-poetry.com/" target="_blank">code-poetry.com</a> & <a
-      href="https://www.brokensleepbooks.com/product-page/daniel-holden-chris-kerr-code-poetry" target="_blank">Broken Sleep Books, 2023</a>)</li>
-    <li><em>Extra Long Matches</em> (<a href="https://penteractpress.com/store/extra-long-matches" target="_blank">Penteract Press, 2022</a>)</li>
-    <li><em>Nam Gal Sips Clark</em> (Hesterglock Press, 2021)</li>
-    <li><em>Citidyll</em> (<a href="https://www.brokensleepbooks.com/product-page/chris-kerr-citidyll" 
-      target="_blank">Broken Sleep Books, 2018</a>)</li>
-  </ul>
-</main>
-  <footer>
-    <p>&copy 2025 Christopher Kerr</p>
-  </footer>
-</div>
+      <h1>Chris Kerr | Poet</h1>
+      <p>Website under construction...</p>
+      <h2>Books</h2>
+      <ul>
+        <li><em>./code --poetry</em> (<a href="http://www.code-poetry.com/" target="_blank">code-poetry.com</a> & <a
+            href="https://www.brokensleepbooks.com/product-page/daniel-holden-chris-kerr-code-poetry"
+            target="_blank">Broken Sleep Books, 2023</a>)</li>
+        <li><em>Extra Long Matches</em> (<a href="https://penteractpress.com/store/extra-long-matches"
+            target="_blank">Penteract Press, 2022</a>)</li>
+        <li><em>Nam Gal Sips Clark</em> (Hesterglock Press, 2021)</li>
+        <li><em>Citidyll</em> (<a href="https://www.brokensleepbooks.com/product-page/chris-kerr-citidyll"
+            target="_blank">Broken Sleep Books, 2018</a>)</li>
+      </ul>
+    </main>
+    <footer>
+      <p>&copy 2025 Christopher Kerr</p>
+    </footer>
+  </div>
+  <script src="js/hamburger.js"></script>
 </body>
 
 </html>
