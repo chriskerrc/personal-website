@@ -7,6 +7,16 @@ body {
     margin: 0 auto; 
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+
 @media (max-width: 600px) {
     body {
         padding: 10%;
@@ -136,4 +146,11 @@ nav {
         margin: 0;
         width: 100%;
     }
+}
+
+/* Footer */
+
+footer p{
+    font-size: 1em;
+    text-align: center;
 }
