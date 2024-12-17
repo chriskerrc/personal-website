@@ -151,6 +151,13 @@ nav {
     white-space: nowrap;
 }
 
+/* Footer */
+
+footer p {
+    font-size: 1em;
+    text-align: center;
+}
+
 /* To make brand name and nav sit next to each other on screens larger than mobile */
 @media (min-width: 600px) {
     .brand-nav-container {
@@ -207,18 +214,15 @@ nav {
         transform: translateY(0.4em);
     }
 
-    /* Open menu: top and bottom spans transform into "X" */
-    .menu.open .hamburger span:nth-child(1) {
-        transform: rotate(45deg);
+    .hamburger .yin{
+        transform: rotate(90deg);
+        background-color: transparent;
     }
 
-    /* Middle span disappears */
-    .menu.open .hamburger span:nth-child(2) {
-        display: none;
-    }
+    /* Open menu: yin line becomes visible, creating a new trigram */
 
-    .menu.open .hamburger span:nth-child(3) {
-        transform: rotate(-45deg);
+    .menu.open .yin {
+        background-color: #f4f4f5;
     }
 
     /* Show menu when toggled */
@@ -235,11 +239,4 @@ nav {
     .brand-name {
         font-size: 1.2em;
     }
-}
-
-/* Footer */
-
-footer p {
-    font-size: 1em;
-    text-align: center;
 }
