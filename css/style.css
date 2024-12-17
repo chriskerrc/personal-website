@@ -109,6 +109,7 @@ nav {
     list-style-type: none;
     display: flex; 
     padding: 0;
+    width: auto;
   }
   
   .menu li {
@@ -123,6 +124,7 @@ nav {
     text-decoration: none;
     text-align: center; 
     border: 1px solid white;
+    white-space: nowrap;
   }
   
   .menu a:hover {
@@ -133,13 +135,18 @@ nav {
     display: none;
   }
 
-  .brand-name {
+  .brand-name-common {
     font-size: 2em;
     font-family: Georgia, serif;
     color: #3b0764;
     margin: 0;
     text-align: center;
     padding-right: 1em;
+    white-space: nowrap;
+}
+
+.brand-name-mobile{
+    display: none;
 }
 
   /* Top nav for mobile */
@@ -185,8 +192,15 @@ nav {
         width: 100%;
     }
 
-    .brand-name {
+
+    /* Not showing brand name on mobile for now because I can't prevent it from constraining width of menu */
+    .brand-name-desktop {
         display: none;
+    }
+
+    .brand-name-mobile{
+        display: block;
+        font-size: 1.2em;
     }
 }
 
