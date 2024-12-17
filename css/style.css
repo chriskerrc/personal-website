@@ -183,12 +183,12 @@ footer p {
 
     .hamburger {
         display: flex;
-        align-items: center;
+        align-items: center; 
         cursor: pointer;
-        width: 2.4em;
-        height: 2.4em;
+        width: 3em;
+        height: 3em;
         background: none;
-        border: 1px solid #3b0764;
+        border: none;
         position: absolute;
         right: 4em;
         top: 3em;
@@ -199,7 +199,6 @@ footer p {
         width: 1.6em;
         height: 0.2em;
         background-color: black;
-        transition: transform 0.3s ease, opacity 0.3s ease;
     }
 
     /* Closed menu hamburger layout */
