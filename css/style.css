@@ -173,22 +173,46 @@ nav {
     .hamburger {
         display: block;
         cursor: pointer;
-        padding: 0.625em;
-        background-color: #333;
-        color: white;
-        border: none;
-        text-align: center;
+        width: 2.4em;
+        height: 2.4em;
+        background: none;
         position: absolute;
-        right: 3em;
-        top: 2em;
+        right: 4em;
+        top: 3em;
     }
 
     .hamburger span {
-        display: block;
+        position: absolute;
         width: 1.6em;
         height: 0.2em;
-        margin: 0.3em auto;
-        background-color: white;
+        background-color: black;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    /* Closed menu hamburger layout */
+
+    /*Top line */
+    .hamburger span:nth-child(1) {
+        transform: translateY(-0.4em);
+    }
+
+    /* Bottom line */
+    .hamburger span:nth-child(2) {
+        transform: translateY(0.4em);
+    }
+
+    /* Open menu: top and bottom spans transform into "X" */
+    .menu.open .hamburger span:nth-child(1) {
+        transform: rotate(45deg);
+    }
+
+    /* Middle span disappears */
+    .menu.open .hamburger span:nth-child(2) {
+        display: none;
+    }
+
+    .menu.open .hamburger span:nth-child(3) {
+        transform: rotate(-45deg);
     }
 
     /* Show menu when toggled */
