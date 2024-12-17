@@ -171,7 +171,8 @@ nav {
     }
 
     .hamburger {
-        display: block;
+        display: flex;
+        align-items: center;
         cursor: pointer;
         width: 2.4em;
         height: 2.4em;
