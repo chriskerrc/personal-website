@@ -107,16 +107,20 @@ nav {
     align-items: center;
 }
 
-.menu ul {
-    list-style-type: none;
-    display: flex;
+.menu {
     padding: 0;
-    width: auto;
+    margin: 0;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
 }
 
 .menu li {
-    border: 1px solid white;
-    background-color: #333;
+    background-color: #3b0764;
+    margin-right: -1px;
+    font-size: 1.2em;
 }
 
 .menu a {
@@ -125,12 +129,13 @@ nav {
     color: white;
     text-decoration: none;
     text-align: center;
-    border: 1px solid white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     white-space: nowrap;
 }
 
 .menu a:hover {
-    background-color: #575757;
+    background-color: #581c87;
 }
 
 .hamburger {
@@ -177,7 +182,7 @@ nav {
         width: 2.4em;
         height: 2.4em;
         background: none;
-        border: 1px solid black;
+        border: 1px solid #3b0764;
         position: absolute;
         right: 4em;
         top: 3em;
@@ -219,9 +224,13 @@ nav {
 
     /* Show menu when toggled */
     .menu.open ul {
-        margin-top: 2em;
+        margin-top: 1em;
         display: flex;
         width: 100%;
+    }
+
+    .menu.open li{
+        margin-bottom: -1px;
     }
 
     .brand-name {
