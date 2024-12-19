@@ -234,6 +234,7 @@ footer p {
         background: none;
         border: none;
         position: absolute;
+        /* Can I find a way to remove this absolute positioning, and make it relative to position of brand name? */
         right: 4em;
         top: 3em; 
     }
