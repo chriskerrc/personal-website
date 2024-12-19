@@ -224,17 +224,27 @@ footer p {
         font-size: 1em;
     }
 
+    /* Ensures button aligns perfectly with .hamburger div */
     .hamburger {
         display: flex;
         align-items: center; 
-        cursor: pointer;
-        width: 3em;
-        height: 3em;
+        justify-content: center;
+        width: 1.6em;
+        height: 1.6em;
         background: none;
         border: none;
         position: absolute;
         right: 4em;
-        top: 3em;
+        top: 3em; 
+    }
+
+    .hamburger button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: none;
+        border: none;
+        cursor: pointer;
     }
 
     .hamburger span {
