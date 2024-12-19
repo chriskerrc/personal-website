@@ -191,7 +191,7 @@ footer p {
     }
 }
 
-/* Breakpoint: image on Bio page */
+/* Image on bio page goes below text under 1000px width */
 
 @media (max-width: 1000px) {
     .text-image-container{
