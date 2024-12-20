@@ -67,10 +67,6 @@ a:visited {
     color: #8b5cf6;
 }
 
-a.brand-name:visited {
-    color: inherit;
-}
-
 iframe {
     display: block;
     margin: 1.5em auto;
