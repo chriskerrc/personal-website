@@ -67,6 +67,10 @@ a:visited {
     color: #8b5cf6;
 }
 
+a.brand-name:visited {
+    color: inherit;
+}
+
 iframe {
     display: block;
     margin: 1.5em auto;
@@ -174,6 +178,9 @@ nav {
     text-align: center;
     padding-right: 1em;
     white-space: nowrap;
+    text-decoration: underline;
+    text-decoration-color: #89CC04;
+    text-underline-offset: 0.3em;
 }
 
 /* Footer */
