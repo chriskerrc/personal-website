@@ -140,14 +140,14 @@ figcaption {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    border: 1px solid #ccc;
+    border: 1px solid #a1a1aa;
     border-right: none;
     /* Prevent borders from doubling up between menu items */
 }
 
 /* Penultimate child is last menu item (last is mobile menu) */
 .topnav a:nth-last-child(2) {
-    border-right: 1px solid #ccc;
+    border-right: 1px solid #a1a1aa;
 }
 
 .topnav a.site-name {
@@ -309,7 +309,7 @@ footer p {
 
     /* Penultimate child is last menu item (last is mobile menu) */
     .responsive a:nth-last-child(2) {
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid #a1a1aa;
     }
 
     .responsive a.menu:hover {
