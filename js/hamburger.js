@@ -1,4 +1,8 @@
-document.querySelector('.hamburger').addEventListener('click', function () {
-    const menu = document.querySelector('.menu');
-    menu.classList.toggle('open');
-});
+function toggleHamburger() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <!-- Start Favicon -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -38,23 +39,19 @@
 
 <body>
   <div class="container">
-    <div class="brand-nav-container">
-      <p class="brand-name">Chris Kerr | Poet</p>
-      <nav class="menu">
-        <div class="hamburger">
-          <button aria-label="Toggle menu">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span class="yin"></span>
-          </button>
-      </div>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="code-poetry.html">./code --poetry</a></li>
-          <li><a href="bio.html">Bio</a></li>
-        </ul>
-      </nav>
+    <div class="topnav" id="myTopnav">
+      <p class="site-name">Chris Kerr | Poet</p>
+      <a href="index.html">Home</a>
+      <a href="code-poetry.html">./code --poetry</a>
+      <a href="bio.html">Bio</a>
+      <a href="javascript:void(0);" class="icon" onclick="toggleHamburger()">
+        <div class="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="yin"></span>
+        </div>
+      </a>
     </div>
     <main>
       <h1>Contact</h1>
