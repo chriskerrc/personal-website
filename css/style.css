@@ -307,7 +307,7 @@ footer p {
         /* Prevent border overlap between menu items stacked on top of each other */
     }
 
-    /* Penultimate child is last menu item (last is mobile menu) */
+    /* Penultimate child is last menu item (last child is hamburger) */
     .responsive a:nth-last-child(2) {
         border-bottom: 1px solid #a1a1aa;
     }
