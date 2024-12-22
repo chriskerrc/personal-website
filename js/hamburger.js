@@ -1,8 +1,5 @@
 function toggleHamburger() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
+    //Hamburger menu opens when open class is present
+    var element = document.getElementById("mainNav");
+    element.classList.toggle("open");
+  }

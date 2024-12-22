@@ -271,48 +271,50 @@ footer p {
     }
 
     /* Menu open */
-    .topnav.responsive {
+
+    /* Target topnav when it has open class applied by hamburger.js */
+    .topnav.open {
         position: relative;
     }
 
-    .topnav.responsive a.icon {
+    .topnav.open a.icon {
         position: absolute;
         right: 0;
         top: 0;
     }
 
-    .topnav.responsive a {
+    .topnav.open a {
         float: none;
         display: block;
         text-align: left;
     }
 
-    .topnav.responsive a.site-name {
+    .topnav.open a.site-name {
         float: none;
         display: block;
         text-align: left;
     }
 
     /* Show menu when toggled */
-    .responsive .hamburger ul {
+    .topnav.open .hamburger ul {
         display: flex;
     }
 
-    .responsive .hamburger .yin {
+    .topnav.open .hamburger .yin {
         background-color: #3f3f46;
     }
 
-    .responsive a {
+    .topnav.open a {
         border-bottom: none;
         /* Prevent border overlap between menu items stacked on top of each other */
     }
 
     /* Penultimate child is last menu item (last child is hamburger) */
-    .responsive a:nth-last-child(2) {
+    .topnav.open a:nth-last-child(2) {
         border-bottom: 1px solid #a1a1aa;
     }
 
-    .responsive a.menu:hover {
+    .topnav.open a.menu:hover {
         background-color: #ddd;
         color: black;
     }
