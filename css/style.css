@@ -130,6 +130,7 @@ figcaption {
 .topnav {
     background-color: #333;
     overflow: hidden;
+    height: 3.5em; /* Stops topnav breaking onto two lines when resized */
 }
 
 .topnav a {
@@ -141,8 +142,7 @@ figcaption {
     text-decoration: none;
     font-size: 17px;
     border: 1px solid #a1a1aa;
-    border-right: none;
-    /* Prevent borders from doubling up between menu items */
+    border-right: none; /* Prevent borders from doubling up between menu items */
 }
 
 /* Penultimate child is last menu item (last is mobile menu) */
@@ -165,10 +165,6 @@ figcaption {
     font-size: 17px;
     margin: 0;
     border: #3f3f46 1px solid;
-}
-
-.pipe {
-    color: #89CC04;
 }
 
 .topnav a:hover {
@@ -214,20 +210,17 @@ footer p {
 
 /* Syanesthesia game */
 
-@media (min-width: 800px) {
-
+@media (min-width: 900px) {
     .mobile-game {
         display: none;
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .desktop-game {
         display: none;
     }
 }
-
-
 
 /* Mobile */
 
