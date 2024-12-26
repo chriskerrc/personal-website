@@ -56,11 +56,28 @@
     </div>
     <main>
       <h1>Contact</h1>
+
+      <h2>Social media</h2>
       <ul>
-        <li><strong>Email</strong>: chriskerrc [at] gmail [dot] com</li>
         <li><strong>Instagram</strong>: <a href="https://www.instagram.com/chrisckerr" target="_blank">@chrisckerr</a>
         </li>
       </ul>
+      <h2>Contact form</h2>
+      <p>To contact me by email, complete the following form. I'll get back to you as soon as possible. </p>
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your name <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Your email <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Message <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
     </main>
     <footer>
       <p>&copy 2025 Christopher Kerr</p>
