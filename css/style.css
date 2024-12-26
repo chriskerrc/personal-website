@@ -230,6 +230,7 @@ footer p {
 
     .topnav {
         background-color: #3f3f46;
+        height: auto;
     }
 
     .topnav a.menu {
