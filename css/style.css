@@ -212,6 +212,23 @@ footer p {
     }
 }
 
+/* Syanesthesia game */
+
+@media (min-width: 800px) {
+
+    .mobile-game {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .desktop-game {
+        display: none;
+    }
+}
+
+
+
 /* Mobile */
 
 /* Top nav */
