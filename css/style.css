@@ -188,10 +188,76 @@ figcaption {
 /* Footer */
 
 footer p {
+    margin-top: 4em;
     font-size: 1em;
     text-align: center;
 }
 
+/* Contact form */
+
+.form-container {
+    background: #fff;
+    padding-left: 1.5em;
+    padding-right: 3em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border-radius: 0.5em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 25em;
+    margin-bottom: 1em;
+  }
+
+  label {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 0.25em;
+    display: block;
+  }
+
+  input, textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 0.8em;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 0.25em;
+    font-size: 0.8em;
+    color: #333;
+    resize: vertical;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 123, 255, 0.3);
+  }
+  
+  button {
+    width: 4.5em;
+    padding: 0.8em;
+    background-color: #89CC04;
+    color: black;
+    font-size: 0.8em;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #a3e635;
+  }
+
+  form h1 {
+    font-size: 1.5em;
+    margin-bottom: 1.2em;
+    text-align: center;
+    color: #333;
+  }
+  
 /* Image on bio page goes below text under 1000px width */
 
 @media (max-width: 1000px) {
