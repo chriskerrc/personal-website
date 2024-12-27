@@ -214,14 +214,14 @@ footer p {
     font-family: Georgia, serif;
     font-weight: bold;
     color: #555;
-    margin-bottom: 0.25em;
     display: block;
   }
 
   input, textarea {
     width: 100%;
     padding: 0.8em;
-    margin-bottom: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
     border: 1px solid #ddd;
     border-radius: 0.25em;
     font-size: 0.9em;
