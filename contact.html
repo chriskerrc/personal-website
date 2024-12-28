@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LLFF3SMW7E"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-LLFF3SMW7E');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
@@ -27,15 +36,6 @@
   <!-- End Favicon -->
   <title>Chris Kerr | Poet</title>
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LLFF3SMW7E"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-
-  gtag('config', 'G-LLFF3SMW7E');
-</script>
 
 <body>
   <div class="container">
@@ -62,10 +62,10 @@
         <form name="contact" method="POST" data-netlify="true">
           <h1>Contact me</h1>
           <p>
-            <label>Your name<input type="text" name="name" /></label>
+            <label>Your name<input type="text" name="name"></label>
           </p>
           <p>
-            <label>Your email address<input type="email" name="email" /></label>
+            <label>Your email address<input type="email" name="email"></label>
           </p>
           <p>
             <label>Message<textarea name="message"></textarea></label>
@@ -73,17 +73,17 @@
           <p>
             <button type="submit">Send</button>
           </p>
+        </form>
       </div>
-  </div>
-  <h2>Social media</h2>
-  <ul>
-    <li><strong>Instagram</strong>: <a href="https://www.instagram.com/chrisckerr" target="_blank">@chrisckerr</a>
-    </li>
-  </ul>
-  </main>
-  <footer>
-    <p>&copy 2025 Christopher Kerr</p>
-  </footer>
+      <h2>Social media</h2>
+      <ul>
+        <li><strong>Instagram</strong>: <a href="https://www.instagram.com/chrisckerr" target="_blank">@chrisckerr</a>
+        </li>
+      </ul>
+    </main>
+    <footer>
+      <p>&copy; 2025 Christopher Kerr</p>
+    </footer>
   </div>
   <script src="js/hamburger.js"></script>
 </body>
