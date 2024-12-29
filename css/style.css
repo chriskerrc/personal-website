@@ -209,7 +209,7 @@ footer p {
     background-color: #f1f5f9;
   }
 
-  label {
+ form label {
     font-size: 1em;
     font-family: Georgia, serif;
     font-weight: bold;
@@ -240,7 +240,7 @@ footer p {
     box-shadow: 0 0 3px rgba(0, 123, 255, 0.3);
   }
   
-  button {
+  form button {
     padding: 0.6em 1.2em; 
     background-color: #89CC04;
     font-family: Helvetica, Arial, sans-serif;
@@ -252,7 +252,7 @@ footer p {
     cursor: pointer;
   }
   
-  button:hover {
+  form button:hover {
     background-color: #a3e635;
   }
 
