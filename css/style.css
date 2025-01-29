@@ -78,10 +78,14 @@ iframe {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: auto;
-    grid-auto-flow: dense;
+    grid-template-columns: repeat(3, 1fr);
     gap: 0.4em;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 @media (max-width: 1024px) {
