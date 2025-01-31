@@ -134,7 +134,8 @@ figcaption {
 .topnav {
     background-color: #333;
     overflow: hidden;
-    height: 3.5em; /* Stops topnav breaking onto two lines when resized */
+    height: 3.5em;
+    /* Stops topnav breaking onto two lines when resized */
 }
 
 .topnav a {
@@ -146,7 +147,8 @@ figcaption {
     text-decoration: none;
     font-size: 17px;
     border: 1px solid #a1a1aa;
-    border-right: none; /* Prevent borders from doubling up between menu items */
+    border-right: none;
+    /* Prevent borders from doubling up between menu items */
 }
 
 /* Penultimate child is last menu item (last is mobile menu) */
@@ -159,7 +161,7 @@ figcaption {
     display: block;
     background-color: #3f3f46;
     font-family: Georgia, serif;
-    color: #f2f2f2; 
+    color: #f2f2f2;
     text-decoration: underline;
     text-decoration-color: #89CC04;
     text-underline-offset: 0.3em;
@@ -189,6 +191,22 @@ figcaption {
     display: none;
 }
 
+/* I Ching note */
+
+.centre-paragraph{
+    text-align: center;
+}
+
+.mobile-only {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .mobile-only {
+        display: block;
+    }
+}
+
 /* Footer */
 
 footer p {
@@ -211,17 +229,18 @@ footer p {
     max-width: 25em;
     margin-bottom: 1em;
     background-color: #f1f5f9;
-  }
+}
 
- form label {
+form label {
     font-size: 1em;
     font-family: Georgia, serif;
     font-weight: bold;
     color: #555;
     display: block;
-  }
+}
 
-  input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 0.8em;
     margin-top: 0.5em;
@@ -232,20 +251,21 @@ footer p {
     font-family: Helvetica, Arial, sans-serif;
     color: #333;
     resize: vertical;
-  }
+}
 
-  textarea {
+textarea {
     min-height: 6em;
-  }
-  
-  input:focus, textarea:focus {
+}
+
+input:focus,
+textarea:focus {
     border-color: #007bff;
     outline: none;
     box-shadow: 0 0 3px rgba(0, 123, 255, 0.3);
-  }
-  
-  form button {
-    padding: 0.6em 1.2em; 
+}
+
+form button {
+    padding: 0.6em 1.2em;
     background-color: #89CC04;
     font-family: Helvetica, Arial, sans-serif;
     color: black;
@@ -254,19 +274,19 @@ footer p {
     border: none;
     border-radius: 0.25em;
     cursor: pointer;
-  }
-  
-  form button:hover {
-    background-color: #a3e635;
-  }
+}
 
-  form h1 {
+form button:hover {
+    background-color: #a3e635;
+}
+
+form h1 {
     font-size: 1.5em;
     margin-bottom: 1.2em;
     text-align: center;
     color: #333;
-  }
-  
+}
+
 /* Image on bio page goes below text under 1000px width */
 
 @media (max-width: 1000px) {
