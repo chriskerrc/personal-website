@@ -1,5 +1,5 @@
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
     padding: 5% 10%;
     background-color: #f4f4f5;
     line-height: 1.5;
@@ -156,7 +156,7 @@ figcaption {
 }
 
 .site-name, .topnav a.site-name {
-    font-family: Georgia, serif;
+    font-family: Roboto, Arial, sans-serif;
     font-size: 17px;
     text-decoration: underline;
     text-decoration-color: #89CC04;
